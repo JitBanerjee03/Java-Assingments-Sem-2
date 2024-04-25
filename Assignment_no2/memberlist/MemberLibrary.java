@@ -1,8 +1,8 @@
 package memberlist;
 import java.util.Scanner;
 public class MemberLibrary{
-    int memberId,noBooksIssued,limit;
-    String name,dob;
+    public int memberId,noBooksIssued,limit;
+    public String name,dob;
 
     public MemberLibrary(){}  //Default Constructor
 

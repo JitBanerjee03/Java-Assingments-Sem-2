@@ -2,8 +2,8 @@ package booklist;
 import java.util.Scanner;
 
 public class BookList{
-    int bookId,noCopiesPurchesed,noCopiesAvailable;
-    String title;
+    public int bookId,noCopiesPurchesed,noCopiesAvailable;
+    public String title;
 
     public BookList(){  //Default Constructor
 
