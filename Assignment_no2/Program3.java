@@ -58,10 +58,14 @@ public class Program3{
              case 7 : new MemberLibrary().displaySingleMember(memberList,membersize);
                       break;
 
-             case 8 : System.out.print("\n"+size);
-                      System.out.print("\n"+membersize);
-                      new Transaction().IssueBook(array,size,memberList,membersize);
+             case 8 : new Transaction().IssueBook(array,size,memberList,membersize);
                       break;
+
+             case 9 : new Transaction().returnBook(array,size,memberList,membersize);
+                      break;
+
+             default : System.out.print("\nInvalid Input");
+                       break;
           }
 
           System.out.print("\nPress 1 to continue and any other key to exit : ");

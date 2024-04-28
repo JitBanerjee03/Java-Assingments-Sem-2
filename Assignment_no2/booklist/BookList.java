@@ -5,9 +5,7 @@ public class BookList{
     public int bookId,noCopiesPurchesed,noCopiesAvailable;
     public String title;
 
-    public BookList(){  //Default Constructor
-
-    }
+    public BookList(){}  //Default Constructor
     
     public BookList(int bookId,int noCopiesPurchesed,String title){  //Parameterised constructor
       this.bookId=bookId;

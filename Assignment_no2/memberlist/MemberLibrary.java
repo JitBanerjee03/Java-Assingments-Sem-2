@@ -2,9 +2,10 @@ package memberlist;
 import java.util.Scanner;
 public class MemberLibrary{
     public int memberId,noBooksIssued,limit;
-    public String name,dob;
-
-    public MemberLibrary(){}  //Default Constructor
+    public String name,dob; 
+    public int []issuedBookid;
+    public MemberLibrary(){//Default Constructor
+    }
 
     public MemberLibrary(int memberId,String name,String dob){  //Parameterised Constructor
       this.name=name;
@@ -12,6 +13,7 @@ public class MemberLibrary{
       this.dob=dob;
       noBooksIssued=0;
       limit=5;
+      issuedBookid=new int[5];
     }
 
     //Display Function
